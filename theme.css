@@ -1,10 +1,10 @@
-html,body,div,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre {
+.preview-container html,body,div,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre {
     margin:0;
     padding:0;
     border:0;
 }
 
-a {
+.preview-container a {
     margin:0;
     padding:0;
     border:0;
@@ -12,31 +12,30 @@ a {
     cursor:pointer;
 }
 
-code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li {
-    margin:0;
+.preview-container code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li {
     padding:0;
     border:0;
 }
 
-abbr,acronym,address,area,b,bdo,big,blockquote,caption,center,cite,code,col,colgroup,dd {
+.preview-container abbr,acronym,address,area,b,bdo,big,blockquote,caption,center,cite,code,col,colgroup,dd {
     line-height:1.571428em;
 }
 
-del {
+.preview-container del {
     line-height:1.571428em;
     text-decoration:line-through;
 }
 
-dfn {
+.preview-container dfn {
     line-height:1.571428em;
     font-style:italic;
 }
 
-div,dl,dt,em,font,h3,h4,h5,h6,hr,i,ins,kbd,li,map,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul {
+.preview-container div,dl,dt,em,font,h3,h4,h5,h6,hr,i,ins,kbd,li,map,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,u,ul {
     line-height:1.571428em;
 }
 
-body {
+.preview-container body {
     color:#383838;
     font-family:gotham, helvetica, arial, sans-serif;
     font-size:14px;
@@ -48,15 +47,15 @@ body {
     overflow-wrap:break-word;
 }
 
-a:link,a:visited {
+.preview-container a:link,a:visited {
     color:#047ac6;
 }
 
-a:hover,a:active {
+.preview-container a:hover,a:active {
     color:#2596de;
 }
 
-h1 {
+.preview-container h1 {
     font-family:gotham, helvetica, arial, sans-serif;
     font-weight:bold;
     font-size:1.5em;
@@ -65,7 +64,7 @@ h1 {
     margin-top:0.9523em;
 }
 
-h2 {
+.preview-container h2 {
     font-family:gotham, helvetica, arial, sans-serif;
     font-weight:bold;
     font-size:1.286em;
@@ -74,7 +73,7 @@ h2 {
     margin-top:1.111em;
 }
 
-h3 {
+.preview-container h3 {
     font-family:gotham, helvetica, arial, sans-serif;
     font-weight:bold;
     font-size:1em;
@@ -82,48 +81,48 @@ h3 {
     margin-top:1.4285em;
 }
 
-h4,h5,h6 {
+.preview-container h4,h5,h6 {
     font-family:gotham, helvetica, arial, sans-serif;
     font-weight:bold;
 }
 
-h4,h5,h6 {
+.preview-container h4,h5,h6 {
     font-size:1em;
     font-weight:bold;
 }
 
-div {
+.preview-container div {
     font-family:gotham, helvetica, arial, sans-serif;
     font-size:14px;
 }
 
-p {
+.preview-container p {
     margin-bottom:0.714285em;
 }
 
-img.en-media {
+.preview-container img.en-media {
     margin-bottom:1.286em;
     max-width:100%;
     height:auto;
 }
 
-img.en-media[height="1"] {
+.preview-container img.en-media[height="1"] {
     height:1px;
 }
 
-p+img,p+div img {
+.preview-container p+img,p+div img {
     margin-top:0.714285em;
 }
 
-div+img,div+div img {
+.preview-container div+img,div+div img {
     margin-top:0.857412em;
 }
 
-img+img,div+div img+img {
+.preview-container img+img,div+div img+img {
     margin-top:0;
 }
 
-ul,ol {
+.preview-container ul,ol {
     list-style-position:outside;
     margin-top:0.2857em;
     margin-bottom:0.714285em;
@@ -131,16 +130,16 @@ ul,ol {
     padding-left:0;
 }
 
-li ul,li ol {
+.preview-container li ul,li ol {
     margin-bottom:0;
     margin-top:0;
 }
 
-p+ul,p+ol,h1+ul,h1+ol,h2+ul,h2+ol {
+.preview-container p+ul,p+ol,h1+ul,h1+ol,h2+ul,h2+ol {
     margin-top:-0.428571em;
 }
 
-blockquote {
+.preview-container blockquote {
     border-left-color:#bfbfbf;
     border-left-style:solid;
     border-left-width:2px;
@@ -150,56 +149,56 @@ blockquote {
     margin-bottom:1.4285em;
 }
 
-pre,code {
+.preview-container pre,code {
     font-family:Monaco, Courier, monospace;
 }
 
-cite {
+.preview-container cite {
     font-style:italic;
 }
 
-table {
+.preview-container table {
     font-size:1em;
 }
 
-th,td {
+.preview-container th,td {
     padding:0.2em 2em 0.2em 0;
     text-align:left;
     vertical-align:top;
 }
 
-button.en-ignore {
+.preview-container button.en-ignore {
     margin-bottom:1em;
 }
 
-.highlight {
+.preview-container .highlight {
     border:1px solid #62eb92;
     background:#c9f2d0;
 }
 
-.Decrypted {
+.preview-container .Decrypted {
     background-color:#f7f7f7;
     padding:5px;
 }
 
-.Decrypted .Header {
+.preview-container .Decrypted .Header {
     font-family:gotham, helvetica, arial, sans-serif;
     font-size:11px;
     padding-bottom:5px;
     color:#404040;
 }
 
-.Decrypted .Body {
+.preview-container .Decrypted .Body {
     background-color:white;
     padding:5px;
 }
 
-.canvas-container {
+.preview-container .canvas-container {
     margin-bottom:10px;
     border:1px solid #cacaca;
     background:#fff url(/redesign/global/img/loading-spinner.gif) no-repeat center center;
 }
 
-::selection {
+.preview-container ::selection {
     background:#c9f2d0;
 }
